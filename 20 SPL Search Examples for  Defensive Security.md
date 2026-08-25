@@ -1,4 +1,4 @@
-# *A Curated Reference of Essential SPL Queries for Threat Detection and Log Analysis.*
+# *A Curated Reference of Essential SPL Queries for SOC Analysts & Defensive Security.*
 ### Basic Searching, Filtering & Scope Bounding 
 **1. Search Across Primary Security Indexes**
 ```
