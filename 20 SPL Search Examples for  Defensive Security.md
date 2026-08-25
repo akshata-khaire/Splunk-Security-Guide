@@ -120,6 +120,6 @@ index=winlog EventCode=4625 | timechart span=1h count BY dest
 ```
 index=security severity=high | timechart span=30m count
 ```
-*Plots spikes in high-severity alerts in 30-minute intervals for visual dashboards.* 
+*Plots spikes in high-severity alerts in 30-minute intervals for visual dashboards.*
 
 
