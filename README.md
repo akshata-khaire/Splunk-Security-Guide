@@ -10,7 +10,7 @@ The repository focuses on building a foundation in SPL and applying that knowled
   Contains commonly used SPL commands and functions with simple descriptions and examples.
 
 ## Contents
-- [20 SPL Search Examples For Defensive Security](20%20SPL%20Search%20Examples%20For%20Defensive%20Security.md)
+- [20 SPL Search Examples For Defensive Security](./20%20SPL%20Search%20Examples%20For%20Defensive%20Security.md)
 - [SPL Basic Commands](SPL%20Basic%20Commands.md)
 
 ## Usage
