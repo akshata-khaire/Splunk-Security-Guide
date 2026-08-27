@@ -1,4 +1,4 @@
-# *A Curated Reference of Essential SPL Queries for SOC Analysts & Defensive Security.*
+# *A Curated Reference of Essential SPL Queries For SOC Analysts & Defensive Security.*
 ### Basic Searching, Filtering & Scope Bounding 
 **1. Search Across Primary Security Indexes**
 ```
@@ -30,7 +30,7 @@ index=security EventCode=4625 NOT (src_ip="0.0.0.0")
 ```
 *Removes known false positives caused by vulnerability scanners or admin jump boxes.*
 ### Data Processing & Field Extraction
-**6. Select Essential Fields to Speed up Sarches**
+**6. Select Essential Fields to Speed up Searches**
 ```
 index=security | fields + _time, src_ip, dest_ip, user, action
 ```
