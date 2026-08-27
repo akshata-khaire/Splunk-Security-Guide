@@ -79,6 +79,7 @@ index=winlog EventCode=4625 | stats dc(user) AS unique_targets by src_ip | where
 ```
 *Counts distinct usernames targeted by single source IP address.*
 
+
 **14. Detect Potential Port Scanning Activity:**
 ```
 index=netflow action=blocked | stats dc(dest_port) AS scanned_ports by src_ip | sort - scanned_ports
